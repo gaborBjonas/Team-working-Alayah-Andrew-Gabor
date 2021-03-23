@@ -41,6 +41,8 @@ body {color: #ffffff;}
 .menu ul li a:hover{
     background: #03ff48;
     display:block;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
