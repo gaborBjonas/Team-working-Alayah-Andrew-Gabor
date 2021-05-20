@@ -1,0 +1,79 @@
+h1 {color: #ffffff;}
+body {background-color: #203075;}
+body {color: #ffffff;}
+
+.menu{
+    display: block; /* the default for span */
+    width: 90%;
+    height: 60px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.00em;
+    border: 1px solid blue;
+    background-color: #354ebc;
+    color: #ffffff;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul a{
+    width: 15%;
+    float: left;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+}
+
+.menu ul li a:hover{
+    color: #a3a3a3;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+}
+
+p1 {
+    font-size: 25px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: Copperplate, Papyrus, fantasy;
+    display: block; /* the default for span */
+    width: 80%;
+    height: 130px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.00em;
+    border: 1px solid blue;
+    background-color: #354ebc;
+    color: #ffffff;
+    text-align: center;
+    bottom: 0;
+}
+
+#gameContainer {
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    width:800px;
+    background-color: pink;
+}
